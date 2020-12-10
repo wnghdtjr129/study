@@ -8,14 +8,14 @@ public class study1 {
 		while(arr[2]<input) {
 			if(arr[2]%2 == 0) { 
 				result += arr[2];
-				System.out.println(arr[2]);
 			}
 			arr[0] = arr[1];
 			arr[1] = arr[2];
 			arr[2] = arr[0] + arr[1];
 		}
 			
-		System.out.print(result);
+		System.out.println(result);
+		System.out.print("hello");
 	}
 
 }
