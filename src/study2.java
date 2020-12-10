@@ -16,7 +16,7 @@ public class study2 {
 		list1.add(2);
 		list1.add(3);
 		int count=0;
-		
+		/*
 		//두번째 리스트값중 첫번째 리스트 마지막 값보다 크거나 같은 값제외 전부 추가
 		for(int i=0; i<list.size(); i++) {
 			for(int j=0; j<list1.size() ;j++) {
@@ -35,6 +35,21 @@ public class study2 {
 			list2.add(list1.get(i));
 		
 		//출력
+		count=1;
+		for(Integer i: list2) {
+			if(count == list2.size())
+				System.out.println(i);
+			else
+				System.out.print(i+"->");
+			count++;
+		}
+		*/
+		for(Integer i : list) 
+			list2.add(i);
+		for(Integer i : list1) 
+			list2.add(i);
+		
+		Collections.sort(list2);
 		count=1;
 		for(Integer i: list2) {
 			if(count == list2.size())
