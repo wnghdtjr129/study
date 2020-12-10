@@ -15,7 +15,7 @@ public class study1 {
 		}
 			
 		System.out.println(result);
-		System.out.print("hello");
+		
 	}
 
 }
