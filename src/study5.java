@@ -19,6 +19,7 @@ public class study5 {
 		}
 		System.out.println((count<arr.length?"False":"True"));
 	}
+	
 
 }
 
